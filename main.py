@@ -44,7 +44,7 @@ def predict_sentiment(review):
 import streamlit as st 
 
 st.title("IMDB Movie Review Sentiment Analysis")
-st.write("Enter a Movie review to classify it as psoitive or negative")
+st.write("Enter a Movie review to classify it as positive or negative")
 
 user_input = st.text_area("Movie Review")
 
